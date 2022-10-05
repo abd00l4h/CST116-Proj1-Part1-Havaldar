@@ -17,7 +17,8 @@ Use appropriate data types to store the data
 
 #include <iostream>;
 #include <list>;
-
+using std::cout;
+using std::endl;
 
 int main()
 {
@@ -25,5 +26,19 @@ int main()
 	int income;
 	float gpa;
 
+	cout << "Enter your name: ";
+	cin >> name;
 
+	cout << "Enter your income: ";
+	cin >> income;
+
+	cout << "Enter your GPA: ";
+	cin >> gpa;
+
+	cout << "Person 1's name is ";
+	cout << name << endl;
+	cout << ". Their income is ";
+	cout << income << endl;
+	cout << ". Their GPA is ";
+	cout << gpa << endl;
 }
