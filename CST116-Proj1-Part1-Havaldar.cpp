@@ -14,3 +14,8 @@ Must use Manipulators
 Use appropriate data types to store the data
 
 */
+
+#include <iostream>;
+#include <list>;
+
+
