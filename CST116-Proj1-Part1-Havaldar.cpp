@@ -21,5 +21,9 @@ Use appropriate data types to store the data
 
 int main()
 {
+	string name;
+	int income;
+	float gpa;
+
 
 }
